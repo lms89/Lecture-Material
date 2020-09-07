@@ -1,0 +1,827 @@
+# Created 2020-09-07 Mon 13:08
+#+TITLE: SOSC 4300 / SOSC 5500: Computational Social Science
+#+DATE: /Tentative, this version prepared on September 6, 2020/
+
+* Bibliography
+:PROPERTIES:
+:CUSTOM_ID: h:f2417724-2258-4b29-b15b-b9bcd420261c
+:END:
+** Salganik, Matthew - Bit by {{Bit}}: {{Social Research}} in the {{Digital Age}}
+  :PROPERTIES:
+   :CUSTOM_ID: salganik_bit_2019
+   :=TYPE=: book
+   :=KEY=: salganik_bit_2019
+   :TITLE: {Bit by {{Bit}}: {{Social Research}} in the {{Digital Age}}}
+   :AUTHOR: {Salganik, Matthew}
+   :YEAR: {2019}
+   :PUBLISHER: {{Princeton University Press}}
+   :GOOGLEBOOKS: {58iXDwAAQBAJ}
+   :ISBN: {978-0-691-19610-7}
+  :END:
+
+** Lazer, David M. J. and Pentland, Alex and Watts, Duncan J. and Aral, Sinan and Athey, Susan and Contractor, Noshir and Freelon, Deen and {Gonzalez-Bailon}, Sandra and King, Gary and Margetts, Helen and Nelson, Alondra and Salganik, Matthew J. and Strohmaier, Markus and Vespignani, Alessandro and Wagner, Claudia - Computational Social Science: {{Obstacles}} and Opportunities
+  :PROPERTIES:
+   :CUSTOM_ID: lazer_computational_2020
+   :=TYPE=: article
+   :=KEY=: lazer_computational_2020
+   :TITLE: {Computational Social Science: {{Obstacles}} and Opportunities}
+   :AUTHOR: {Lazer, David M. J. and Pentland, Alex and Watts, Duncan J. and Aral, Sinan and Athey, Susan and Contractor, Noshir and Freelon, Deen and {Gonzalez-Bailon}, Sandra and King, Gary and Margetts, Helen and Nelson, Alondra and Salganik, Matthew J. and Strohmaier, Markus and Vespignani, Alessandro and Wagner, Claudia}
+   :YEAR: {2020}
+   :VOLUME: {369}
+   :PAGES: {1060--1062}
+   :PUBLISHER: {{American Association for the Advancement of Science}}
+   :ISSN: {0036-8075, 1095-9203}
+   :DOI: {10.1126/science.aaz8170}
+   :CHAPTER: {Policy Forum}
+   :COPYRIGHT: {Copyright \textcopyright{} 2020, American Association for the Advancement of Science. http://www.sciencemag.org/about/science-licenses-journal-article-reuseThis is an article distributed under the terms of the Science Journals Default License.}
+   :JOURNAL: {Science}
+   :NUMBER: {6507}
+  :END:
+
+** Kramer, Adam D. I. and Guillory, Jamie E. and Hancock, Jeffrey T. - Experimental Evidence of Massive-Scale Emotional Contagion through Social Networks
+  :PROPERTIES:
+   :CUSTOM_ID: kramer_experimental_2014
+   :=TYPE=: article
+   :=KEY=: kramer_experimental_2014
+   :TITLE: {Experimental Evidence of Massive-Scale Emotional Contagion through Social Networks}
+   :AUTHOR: {Kramer, Adam D. I. and Guillory, Jamie E. and Hancock, Jeffrey T.}
+   :YEAR: {2014}
+   :VOLUME: {111}
+   :PAGES: {8788--8790}
+   :ISSN: {0027-8424, 1091-6490}
+   :DOI: {10.1073/pnas.1320040111}
+   :JOURNAL: {Proceedings of the National Academy of Sciences}
+   :NUMBER: {24}
+   :PMID: {24889601}
+  :END:
+
+** Lazer, David and Radford, Jason - Data Ex {{Machina}}: {{Introduction}} to {{Big Data}}
+  :PROPERTIES:
+   :CUSTOM_ID: lazer_data_2017
+   :=TYPE=: article
+   :=KEY=: lazer_data_2017
+   :TITLE: {Data Ex {{Machina}}: {{Introduction}} to {{Big Data}}}
+   :AUTHOR: {Lazer, David and Radford, Jason}
+   :YEAR: {2017}
+   :VOLUME: {43}
+   :PAGES: {19--39}
+   :DOI: {10.1146/annurev-soc-060116-053457}
+   :JOURNAL: {Annual Review of Sociology}
+   :NUMBER: {1}
+  :END:
+
+** Golder, Scott A. and Macy, Michael W. - Digital {{Footprints}}: {{Opportunities}} and {{Challenges}} for {{Online Social Research}}
+  :PROPERTIES:
+   :CUSTOM_ID: golder_digital_2014
+   :=TYPE=: article
+   :=KEY=: golder_digital_2014
+   :TITLE: {Digital {{Footprints}}: {{Opportunities}} and {{Challenges}} for {{Online Social Research}}}
+   :AUTHOR: {Golder, Scott A. and Macy, Michael W.}
+   :YEAR: {2014}
+   :VOLUME: {40}
+   :PAGES: {129--152}
+   :DOI: {10.1146/annurev-soc-071913-043145}
+   :JOURNAL: {Annual Review of Sociology}
+   :NUMBER: {1}
+  :END:
+
+** Hofman, Jake M. and Sharma, Amit and Watts, Duncan J. - Prediction and Explanation in Social Systems
+  :PROPERTIES:
+   :CUSTOM_ID: hofman_prediction_2017
+   :=TYPE=: article
+   :=KEY=: hofman_prediction_2017
+   :TITLE: {Prediction and Explanation in Social Systems}
+   :AUTHOR: {Hofman, Jake M. and Sharma, Amit and Watts, Duncan J.}
+   :YEAR: {2017}
+   :VOLUME: {355}
+   :PAGES: {486--488}
+   :ISSN: {0036-8075, 1095-9203}
+   :DOI: {10.1126/science.aal3856}
+   :COPYRIGHT: {Copyright \textcopyright{} 2017, American Association for the Advancement of Science}
+   :JOURNAL: {Science}
+   :NUMBER: {6324}
+   :PMID: {28154051}
+  :END:
+
+** Kleinberg, Jon and Lakkaraju, Himabindu and Leskovec, Jure and Ludwig, Jens and Mullainathan, Sendhil - Human {{Decisions}} and {{Machine Predictions}}
+  :PROPERTIES:
+   :CUSTOM_ID: kleinberg_human_2018
+   :=TYPE=: article
+   :=KEY=: kleinberg_human_2018
+   :TITLE: {Human {{Decisions}} and {{Machine Predictions}}}
+   :AUTHOR: {Kleinberg, Jon and Lakkaraju, Himabindu and Leskovec, Jure and Ludwig, Jens and Mullainathan, Sendhil}
+   :YEAR: {2018}
+   :VOLUME: {133}
+   :PAGES: {237--293}
+   :PUBLISHER: {{Oxford Academic}}
+   :ISSN: {0033-5533}
+   :DOI: {10.1093/qje/qjx032}
+   :JOURNAL: {The Quarterly Journal of Economics}
+   :NUMBER: {1}
+  :END:
+
+** Beauchamp, Nicholas - Predicting and {{Interpolating State}}-{{Level Polls Using Twitter Textual Data}}
+  :PROPERTIES:
+   :CUSTOM_ID: beauchamp_predicting_2017
+   :=TYPE=: article
+   :=KEY=: beauchamp_predicting_2017
+   :TITLE: {Predicting and {{Interpolating State}}-{{Level Polls Using Twitter Textual Data}}}
+   :AUTHOR: {Beauchamp, Nicholas}
+   :YEAR: {2017}
+   :VOLUME: {61}
+   :PAGES: {490--503}
+   :ISSN: {1540-5907}
+   :DOI: {10.1111/ajps.12274}
+   :COPYRIGHT: {\textcopyright 2016, Midwest Political Science Association}
+   :JOURNAL: {American Journal of Political Science}
+   :NUMBER: {2}
+  :END:
+
+** Salganik, Matthew J. and Levy, Karen E. C. - Wiki {{Surveys}}: {{Open}} and {{Quantifiable Social Data Collection}}
+  :PROPERTIES:
+   :CUSTOM_ID: salganik_wiki_2015
+   :=TYPE=: article
+   :=KEY=: salganik_wiki_2015
+   :TITLE: {Wiki {{Surveys}}: {{Open}} and {{Quantifiable Social Data Collection}}}
+   :AUTHOR: {Salganik, Matthew J. and Levy, Karen E. C.}
+   :YEAR: {2015}
+   :VOLUME: {10}
+   :PAGES: {e0123483}
+   :ISSN: {1932-6203}
+   :DOI: {10.1371/journal.pone.0123483}
+   :JOURNAL: {PLOS ONE}
+   :NUMBER: {5}
+  :END:
+
+** Mullinix, Kevin J. and Leeper, Thomas J. and Druckman, James N. and Freese, Jeremy - The {{Generalizability}} of {{Survey Experiments}}
+  :PROPERTIES:
+   :CUSTOM_ID: mullinix_generalizability_2015
+   :=TYPE=: article
+   :=KEY=: mullinix_generalizability_2015
+   :TITLE: {The {{Generalizability}} of {{Survey Experiments}}}
+   :AUTHOR: {Mullinix, Kevin J. and Leeper, Thomas J. and Druckman, James N. and Freese, Jeremy}
+   :YEAR: {2015}
+   :VOLUME: {2}
+   :PAGES: {109--138}
+   :ISSN: {2052-2649}
+   :DOI: {10.1017/XPS.2015.19}
+   :JOURNAL: {Journal of Experimental Political Science}
+   :NUMBER: {02}
+  :END:
+
+** Grimmer, Justin and Stewart, Brandon M. - Text as {{Data}}: {{The Promise}} and {{Pitfalls}} of {{Automatic Content Analysis Methods}} for {{Political Texts}}
+  :PROPERTIES:
+   :CUSTOM_ID: grimmer_text_2013
+   :=TYPE=: article
+   :=KEY=: grimmer_text_2013
+   :TITLE: {Text as {{Data}}: {{The Promise}} and {{Pitfalls}} of {{Automatic Content Analysis Methods}} for {{Political Texts}}}
+   :AUTHOR: {Grimmer, Justin and Stewart, Brandon M.}
+   :YEAR: {2013}
+   :VOLUME: {21}
+   :PAGES: {267--297}
+   :ISSN: {1047-1987, 1476-4989}
+   :DOI: {10.1093/pan/mps028}
+   :JOURNAL: {Political Analysis}
+   :NUMBER: {03}
+  :END:
+
+** Wilkerson, John and Casas, Andreu - Large-{{Scale Computerized Text Analysis}} in {{Political Science}}: {{Opportunities}} and {{Challenges}}
+  :PROPERTIES:
+   :CUSTOM_ID: wilkerson_large-scale_2017
+   :=TYPE=: article
+   :=KEY=: wilkerson_large-scale_2017
+   :TITLE: {Large-{{Scale Computerized Text Analysis}} in {{Political Science}}: {{Opportunities}} and {{Challenges}}}
+   :AUTHOR: {Wilkerson, John and Casas, Andreu}
+   :YEAR: {2017}
+   :VOLUME: {20}
+   :PAGES: {529--544}
+   :ISSN: {1094-2939, 1545-1577}
+   :DOI: {10.1146/annurev-polisci-052615-025542}
+   :JOURNAL: {Annual Review of Political Science}
+   :NUMBER: {1}
+  :END:
+
+** Denny, Matthew J. and Spirling, Arthur - Text {{Preprocessing For Unsupervised Learning}}: {{Why It Matters}}, {{When It Misleads}}, {{And What To Do About It}}
+  :PROPERTIES:
+   :CUSTOM_ID: denny_text_2018
+   :=TYPE=: article
+   :=KEY=: denny_text_2018
+   :TITLE: {Text {{Preprocessing For Unsupervised Learning}}: {{Why It Matters}}, {{When It Misleads}}, {{And What To Do About It}}}
+   :AUTHOR: {Denny, Matthew J. and Spirling, Arthur}
+   :YEAR: {2018}
+   :VOLUME: {26}
+   :PAGES: {168--189}
+   :PUBLISHER: {{Cambridge University Press}}
+   :JOURNAL: {Political Analysis}
+   :NUMBER: {2}
+  :END:
+
+** {Benoit, Kenneth} - Text as {{Data}} : {{An Overview}}
+  :PROPERTIES:
+   :CUSTOM_ID: benoit_kenneth_text_2020
+   :=TYPE=: incollection
+   :=KEY=: benoit_kenneth_text_2020
+   :TITLE: {Text as {{Data}} : {{An Overview}}}
+   :BOOKTITLE: {The {{SAGE Handbook}} of {{Research Methods}} in {{Political Science}} and {{International Relations}}}
+   :AUTHOR: {{Benoit, Kenneth}}
+   :EDITOR: {Curini, Luigi and {Franzese, Robert}}
+   :YEAR: {2020}
+   :PUBLISHER: {{SAGE Publications Ltd}}
+  :END:
+
+** Gentzkow, Matthew and Kelly, Bryan and Taddy, Matt - Text as {{Data}}
+  :PROPERTIES:
+   :CUSTOM_ID: gentzkow_text_2019
+   :=TYPE=: article
+   :=KEY=: gentzkow_text_2019
+   :TITLE: {Text as {{Data}}}
+   :AUTHOR: {Gentzkow, Matthew and Kelly, Bryan and Taddy, Matt}
+   :YEAR: {2019}
+   :VOLUME: {57}
+   :PAGES: {535--574}
+   :ISSN: {0022-0515}
+   :DOI: {10.1257/jel.20181020}
+   :JOURNAL: {Journal of Economic Literature}
+   :NUMBER: {3}
+  :END:
+
+** Goldberg, Yoav - A {{Primer}} on {{Neural Network Models}} for {{Natural Language Processing}}
+  :PROPERTIES:
+   :CUSTOM_ID: goldberg_primer_2015
+   :=TYPE=: article
+   :=KEY=: goldberg_primer_2015
+   :TITLE: {A {{Primer}} on {{Neural Network Models}} for {{Natural Language Processing}}}
+   :AUTHOR: {Goldberg, Yoav}
+   :YEAR: {2015}
+   :ARCHIVEPREFIX: {arXiv}
+   :EPRINT: {1510.00726}
+   :EPRINTTYPE: {arxiv}
+   :JOURNAL: {arXiv:1510.00726 [cs]}
+   :PRIMARYCLASS: {cs}
+  :END:
+
+** Benoit, Kenneth and Conway, Drew and Lauderdale, Benjamin E. and Laver, Michael and Mikhaylov, Slava - Crowd-Sourced {{Text Analysis}}: {{Reproducible}} and {{Agile Production}} of {{Political Data}}
+  :PROPERTIES:
+   :CUSTOM_ID: benoit_crowd-sourced_2016
+   :=TYPE=: article
+   :=KEY=: benoit_crowd-sourced_2016
+   :TITLE: {Crowd-Sourced {{Text Analysis}}: {{Reproducible}} and {{Agile Production}} of {{Political Data}}}
+   :AUTHOR: {Benoit, Kenneth and Conway, Drew and Lauderdale, Benjamin E. and Laver, Michael and Mikhaylov, Slava}
+   :YEAR: {2016}
+   :VOLUME: {110}
+   :PAGES: {278--295}
+   :PUBLISHER: {{Cambridge University Press}}
+   :ISSN: {0003-0554, 1537-5943}
+   :DOI: {10.1017/S0003055416000058}
+   :JOURNAL: {American Political Science Review}
+   :NUMBER: {2}
+  :END:
+
+** Barber{\'a}, Pablo and Boydstun, Amber E. and Linn, Suzanna and McMahon, Ryan and Nagler, Jonathan - Automated {{Text Classification}} of {{News Articles}}: {{A Practical Guide}}
+  :PROPERTIES:
+   :CUSTOM_ID: barbera_automated_2020
+   :=TYPE=: article
+   :=KEY=: barbera_automated_2020
+   :TITLE: {Automated {{Text Classification}} of {{News Articles}}: {{A Practical Guide}}}
+   :AUTHOR: {Barber{\'a}, Pablo and Boydstun, Amber E. and Linn, Suzanna and McMahon, Ryan and Nagler, Jonathan}
+   :YEAR: {2020}
+   :PAGES: {1--24}
+   :ISSN: {1047-1987, 1476-4989}
+   :DOI: {10.1017/pan.2020.8}
+   :JOURNAL: {Political Analysis}
+  :END:
+
+** Barber{\'a}, Pablo and Casas, Andreu and Nagler, Jonathan and Egan, Patrick J. and Bonneau, Richard and Jost, John T. and Tucker, Joshua A. - Who {{Leads}}? {{Who Follows}}? {{Measuring Issue Attention}} and {{Agenda Setting}} by {{Legislators}} and the {{Mass Public Using Social Media Data}}
+  :PROPERTIES:
+   :CUSTOM_ID: barbera_who_2019
+   :=TYPE=: article
+   :=KEY=: barbera_who_2019
+   :TITLE: {Who {{Leads}}? {{Who Follows}}? {{Measuring Issue Attention}} and {{Agenda Setting}} by {{Legislators}} and the {{Mass Public Using Social Media Data}}}
+   :AUTHOR: {Barber{\'a}, Pablo and Casas, Andreu and Nagler, Jonathan and Egan, Patrick J. and Bonneau, Richard and Jost, John T. and Tucker, Joshua A.}
+   :YEAR: {2019}
+   :VOLUME: {113}
+   :PAGES: {883--901}
+   :ISSN: {0003-0554, 1537-5943}
+   :DOI: {10.1017/S0003055419000352}
+   :JOURNAL: {American Political Science Review}
+   :NUMBER: {4}
+  :END:
+
+** Garg, Nikhil and Schiebinger, Londa and Jurafsky, Dan and Zou, James - Word {{Embeddings Quantify}} 100 {{Years}} of {{Gender}} and {{Ethnic Stereotypes}}
+  :PROPERTIES:
+   :CUSTOM_ID: garg_word_2018
+   :=TYPE=: article
+   :=KEY=: garg_word_2018
+   :TITLE: {Word {{Embeddings Quantify}} 100 {{Years}} of {{Gender}} and {{Ethnic Stereotypes}}}
+   :AUTHOR: {Garg, Nikhil and Schiebinger, Londa and Jurafsky, Dan and Zou, James}
+   :YEAR: {2018}
+   :VOLUME: {115}
+   :PAGES: {E3635-E3644}
+   :ISSN: {0027-8424, 1091-6490}
+   :DOI: {10.1073/pnas.1720347115}
+   :JOURNAL: {Proceedings of the National Academy of Sciences}
+   :NUMBER: {16}
+  :END:
+
+** Klingenstein, Sara and Hitchcock, Tim and DeDeo, Simon - The Civilizing Process in {{London}}'s {{Old Bailey}}
+  :PROPERTIES:
+   :CUSTOM_ID: klingenstein_civilizing_2014
+   :=TYPE=: article
+   :=KEY=: klingenstein_civilizing_2014
+   :TITLE: {The Civilizing Process in {{London}}'s {{Old Bailey}}}
+   :AUTHOR: {Klingenstein, Sara and Hitchcock, Tim and DeDeo, Simon}
+   :YEAR: {2014}
+   :VOLUME: {111}
+   :PAGES: {9419--9424}
+   :ISSN: {0027-8424, 1091-6490}
+   :DOI: {10.1073/pnas.1405984111}
+   :JOURNAL: {Proceedings of the National Academy of Sciences}
+   :NUMBER: {26}
+   :PMID: {24979792}
+  :END:
+
+** Blei, David M. - Probabilistic {{Topic Models}}
+  :PROPERTIES:
+   :CUSTOM_ID: blei_probabilistic_2012
+   :=TYPE=: article
+   :=KEY=: blei_probabilistic_2012
+   :TITLE: {Probabilistic {{Topic Models}}}
+   :AUTHOR: {Blei, David M.}
+   :YEAR: {2012}
+   :VOLUME: {55}
+   :PAGES: {77--84}
+   :ISSN: {0001-0782}
+   :DOI: {10.1145/2133806.2133826}
+   :JOURNAL: {Commun. ACM}
+   :NUMBER: {4}
+  :END:
+
+** Roberts, Margaret E. and Stewart, Brandon M. and Airoldi, Edoardo M. - Structural {{Topic Models}}
+  :PROPERTIES:
+   :CUSTOM_ID: roberts_structural_2014
+   :=TYPE=: techreport
+   :=KEY=: roberts_structural_2014
+   :TITLE: {Structural {{Topic Models}}}
+   :AUTHOR: {Roberts, Margaret E. and Stewart, Brandon M. and Airoldi, Edoardo M.}
+   :YEAR: {2014}
+   :INSTITUTION: {{Working Paper. Export BibTex Tagged XML}}
+  :END:
+
+** Blaydes, Lisa and Grimmer, Justin and McQueen, Alison - Mirrors for {{Princes}} and {{Sultans}}: {{Advice}} on the {{Art}} of {{Governance}} in the {{Medieval Christian}} and {{Islamic Worlds}}
+  :PROPERTIES:
+   :CUSTOM_ID: blaydes_mirrors_2018
+   :=TYPE=: article
+   :=KEY=: blaydes_mirrors_2018
+   :TITLE: {Mirrors for {{Princes}} and {{Sultans}}: {{Advice}} on the {{Art}} of {{Governance}} in the {{Medieval Christian}} and {{Islamic Worlds}}}
+   :AUTHOR: {Blaydes, Lisa and Grimmer, Justin and McQueen, Alison}
+   :YEAR: {2018}
+   :VOLUME: {80}
+   :PAGES: {1150--1167}
+   :PUBLISHER: {{The University of Chicago Press}}
+   :ISSN: {0022-3816}
+   :DOI: {10.1086/699246}
+   :JOURNAL: {The Journal of Politics}
+   :NUMBER: {4}
+  :END:
+
+** Zhang, Han and Pan, Jennifer - {{CASM}}: {{A Deep}}-{{Learning Approach}} for {{Identifying Collective Action Events}} with {{Text}} and {{Image Data}} from {{Social Media}}
+  :PROPERTIES:
+   :CUSTOM_ID: zhang_casm_2019
+   :=TYPE=: article
+   :=KEY=: zhang_casm_2019
+   :TITLE: {{{CASM}}: {{A Deep}}-{{Learning Approach}} for {{Identifying Collective Action Events}} with {{Text}} and {{Image Data}} from {{Social Media}}}
+   :AUTHOR: {Zhang, Han and Pan, Jennifer}
+   :YEAR: {2019}
+   :VOLUME: {49}
+   :PAGES: {1--57}
+   :ISSN: {0081-1750}
+   :DOI: {10.1177/0081175019860244}
+   :JOURNAL: {Sociological Methodology}
+   :NUMBER: {1}
+  :END:
+
+** Jean, Neal and Burke, Marshall and Xie, Michael and Davis, W. Matthew and Lobell, David B. and Ermon, Stefano - Combining Satellite Imagery and Machine Learning to Predict Poverty
+  :PROPERTIES:
+   :CUSTOM_ID: jean_combining_2016
+   :=TYPE=: article
+   :=KEY=: jean_combining_2016
+   :TITLE: {Combining Satellite Imagery and Machine Learning to Predict Poverty}
+   :AUTHOR: {Jean, Neal and Burke, Marshall and Xie, Michael and Davis, W. Matthew and Lobell, David B. and Ermon, Stefano}
+   :YEAR: {2016}
+   :VOLUME: {353}
+   :PAGES: {790--794}
+   :ISSN: {0036-8075, 1095-9203}
+   :DOI: {10.1126/science.aaf7894}
+   :COPYRIGHT: {Copyright \textcopyright{} 2016, American Association for the Advancement of Science}
+   :JOURNAL: {Science}
+   :NUMBER: {6301}
+   :PMID: {27540167}
+  :END:
+
+** Gebru, Timnit and Krause, Jonathan and Wang, Yilun and Chen, Duyun and Deng, Jia and Aiden, Erez Lieberman and {Fei-Fei}, Li - Using Deep Learning and {{Google Street View}} to Estimate the Demographic Makeup of Neighborhoods across the {{United States}}
+  :PROPERTIES:
+   :CUSTOM_ID: gebru_using_2017
+   :=TYPE=: article
+   :=KEY=: gebru_using_2017
+   :TITLE: {Using Deep Learning and {{Google Street View}} to Estimate the Demographic Makeup of Neighborhoods across the {{United States}}}
+   :AUTHOR: {Gebru, Timnit and Krause, Jonathan and Wang, Yilun and Chen, Duyun and Deng, Jia and Aiden, Erez Lieberman and {Fei-Fei}, Li}
+   :YEAR: {2017}
+   :VOLUME: {114}
+   :PAGES: {13108--13113}
+   :PUBLISHER: {{National Academy of Sciences}}
+   :ISSN: {0027-8424, 1091-6490}
+   :DOI: {10.1073/pnas.1700035114}
+   :CHAPTER: {Physical Sciences}
+   :COPYRIGHT: {Copyright \textcopyright{} 2017 the Author(s). Published by PNAS.. https://creativecommons.org/licenses/by-nc-nd/4.0/This open access article is distributed under Creative Commons Attribution-NonCommercial-NoDerivatives License 4.0 (CC BY-NC-ND).}
+   :JOURNAL: {Proceedings of the National Academy of Sciences}
+   :NUMBER: {50}
+   :PMID: {29183967}
+  :END:
+
+** Watts, Duncan J. - Small {{Worlds}}: {{The Dynamics}} of {{Networks Between Order}} and {{Randomness}}
+  :PROPERTIES:
+   :CUSTOM_ID: watts_small_1999
+   :=TYPE=: book
+   :=KEY=: watts_small_1999
+   :TITLE: {Small {{Worlds}}: {{The Dynamics}} of {{Networks Between Order}} and {{Randomness}}}
+   :AUTHOR: {Watts, Duncan J.}
+   :YEAR: {1999}
+   :PUBLISHER: {{Princeton University Press}}
+   :GOOGLEBOOKS: {soCe7RulvZcC}
+   :ISBN: {978-0-691-11704-1}
+  :END:
+
+** Lazer, David and Pentland, Alex and Adamic, Lada and Aral, Sinan and Barab{\'a}si, Albert-L{\'a}szl{\'o} and Brewer, Devon and Christakis, Nicholas and Contractor, Noshir and Fowler, James and Gutmann, Myron and Jebara, Tony and King, Gary and Macy, Michael and Roy, Deb and Alstyne, Marshall Van - Computational {{Social Science}}
+  :PROPERTIES:
+   :CUSTOM_ID: lazer_computational_2009
+   :=TYPE=: article
+   :=KEY=: lazer_computational_2009
+   :TITLE: {Computational {{Social Science}}}
+   :AUTHOR: {Lazer, David and Pentland, Alex and Adamic, Lada and Aral, Sinan and Barab{\'a}si, Albert-L{\'a}szl{\'o} and Brewer, Devon and Christakis, Nicholas and Contractor, Noshir and Fowler, James and Gutmann, Myron and Jebara, Tony and King, Gary and Macy, Michael and Roy, Deb and Alstyne, Marshall Van}
+   :YEAR: {2009}
+   :VOLUME: {323}
+   :PAGES: {721--723}
+   :ISSN: {0036-8075, 1095-9203}
+   :DOI: {10.1126/science.1167742}
+   :COPYRIGHT: {\textcopyright{} 2009 American Association for the Advancement of Science}
+   :JOURNAL: {Science}
+   :NUMBER: {5915}
+   :PMID: {19197046}
+  :END:
+
+** Christakis, Nicholas A. and Fowler, James H. - The {{Spread}} of {{Obesity}} in a {{Large Social Network}} over 32 {{Years}}
+  :PROPERTIES:
+   :CUSTOM_ID: christakis_spread_2007
+   :=TYPE=: article
+   :=KEY=: christakis_spread_2007
+   :TITLE: {The {{Spread}} of {{Obesity}} in a {{Large Social Network}} over 32 {{Years}}}
+   :AUTHOR: {Christakis, Nicholas A. and Fowler, James H.}
+   :YEAR: {2007}
+   :VOLUME: {357}
+   :PAGES: {370--379}
+   :ISSN: {0028-4793}
+   :DOI: {10.1056/NEJMsa066082}
+   :JOURNAL: {New England Journal of Medicine}
+   :NUMBER: {4}
+   :PMID: {17652652}
+  :END:
+
+** Bakshy, Eytan and Rosenn, Itamar and Marlow, Cameron and Adamic, Lada - The Role of Social Networks in Information Diffusion
+  :PROPERTIES:
+   :CUSTOM_ID: bakshy_role_2012
+   :=TYPE=: inproceedings
+   :=KEY=: bakshy_role_2012
+   :TITLE: {The Role of Social Networks in Information Diffusion}
+   :BOOKTITLE: {Proceedings of the 21st International Conference on {{World Wide Web}}}
+   :AUTHOR: {Bakshy, Eytan and Rosenn, Itamar and Marlow, Cameron and Adamic, Lada}
+   :YEAR: {2012}
+   :PAGES: {519--528}
+   :PUBLISHER: {{ACM}}
+   :ADDRESS: {{New York, NY, USA}}
+   :DOI: {10.1145/2187836.2187907}
+   :ISBN: {978-1-4503-1229-5}
+   :SERIES: {{{WWW}} '12}
+  :END:
+
+** Lewis, Kevin and Gonzalez, Marco and Kaufman, Jason - Social Selection and Peer Influence in an Online Social Network
+  :PROPERTIES:
+   :CUSTOM_ID: lewis_social_2012
+   :=TYPE=: article
+   :=KEY=: lewis_social_2012
+   :TITLE: {Social Selection and Peer Influence in an Online Social Network}
+   :AUTHOR: {Lewis, Kevin and Gonzalez, Marco and Kaufman, Jason}
+   :YEAR: {2012}
+   :VOLUME: {109}
+   :PAGES: {68--72}
+   :ISSN: {0027-8424, 1091-6490}
+   :DOI: {10.1073/pnas.1109739109}
+   :JOURNAL: {Proceedings of the National Academy of Sciences}
+   :NUMBER: {1}
+   :PMID: {22184242}
+  :END:
+
+** Schelling, Thomas C. - Micromotives and {{Macrobehavior}}
+  :PROPERTIES:
+   :CUSTOM_ID: schelling_micromotives_2006
+   :=TYPE=: book
+   :=KEY=: schelling_micromotives_2006
+   :TITLE: {Micromotives and {{Macrobehavior}}}
+   :AUTHOR: {Schelling, Thomas C.}
+   :YEAR: {2006}
+   :PUBLISHER: {{W. W. Norton \& Company}}
+   :GOOGLEBOOKS: {DenWKRgqzWMC}
+   :ISBN: {978-0-393-06977-8}
+  :END:
+
+** Chen, Yan and Konstan, Joseph - Online Field Experiments: A Selective Survey of Methods
+  :PROPERTIES:
+   :CUSTOM_ID: chen_online_2015
+   :=TYPE=: article
+   :=KEY=: chen_online_2015
+   :TITLE: {Online Field Experiments: A Selective Survey of Methods}
+   :AUTHOR: {Chen, Yan and Konstan, Joseph}
+   :YEAR: {2015}
+   :VOLUME: {1}
+   :PAGES: {29--42}
+   :ISSN: {2199-6776, 2199-6784}
+   :DOI: {10.1007/s40881-015-0005-3}
+   :JOURNAL: {Journal of the Economic Science Association}
+   :NUMBER: {1}
+  :END:
+
+
+
+|                      | Instructor                            | Teaching Assistant                   |
+|----------------------+---------------------------------------+--------------------------------------|
+|                      | *ZHANG, Han*                          | *Peng, Wenwei*                       |
+|----------------------+---------------------------------------+--------------------------------------|
+| Office               | Room 2379, Academic Building, Lift 15 | Room 3001, Academic Building, Lift 4 |
+| Email                | zhangh@ust.hk                         | wshaaa@connect.ust.hk                |
+| Office Hour          | Tuesday 2:00PM to 3:00PM              | TBD                                  |
+| Zoom for office hour | https://hkust.zoom.us/j/6522716568    | https://hkust.zoom.us/j/8653678438   |
+
+* Prerequisites
+:PROPERTIES:
+:CUSTOM_ID: h:bf0c5650-3d5a-4ca5-a190-9d061cc2031d
+:END:
+- Students are expected to be familiar with the materials covered in basic statistics (e.g., SOSC 2400 for UG students and SOSC 5090 for PG students). Students with statistics knowledge but do not meet prerequisite can *seek instructor's approval for enrollment*.
+- Students should also have basic literacy in at least one statistical programming language. We will use R in tutorials. You can also use other programming languages such as Python, Matlab, Julia, etc., as long as you can finish course assignment and projects with the codes.
+
+* Goals
+:PROPERTIES:
+:CUSTOM_ID: h:1640b1ae-0821-4eae-8c2a-569de6848d46
+:END:
+Upon finishing the course, students should be able to:
+
+1. Describe the opportunities and challenges of social research in the age of big data
+
+2. Evaluate research on social phenomena from different fields, including social sciences and computer science/data science.
+
+3. Practice the essential techniques to analyze social big data
+
+4. Propose research questions that are suited to be examined by computational methods with big data
+
+5. (For PG students): write a research article that utilizes the techniques and methods of computational social sciences to address social science problems.
+
+* Grading
+:PROPERTIES:
+:CUSTOM_ID: h:60eeb6ab-a9b5-4ac1-9537-1303788a4459
+:END:
+Your score will be accessed based on the following five components (no mid-term and final exams):
+
+|                                                  | UG students       | PG students       | Due       |
+| Attendence and participation                     | 10%               | 10%               |           |
+| Homework assignments                             | 20% (independent) | 20% (independent) | Two weeks |
+| Literature review                                |                   |                   |           |
+| \space{} \space{} \space{} \space{} Report       | 15% (3-4 people)  | 20%  (1-2 people) | TBD       |
+| \space{} \space{} \space{} \space{} Presentation | 5% (3-4 people)   | 10% (1-2 people)  | TBD       |
+| Final Paper/Project                              |                   |                   |           |
+| \space{} \space{} \space{} \space{} Presentation | 10% (3-4 people)  | 10% (1-2 people)  | Dec 1     |
+| \space{} \space{} \space{} \space{} Write-up     | 40% (3-4 people)  | 40% (1-2 people)  | Dec 15    |
+
+
+
+
+Homework, literature review, and final paper/project need to be submitted on Github. We will cover the steps in the first lecture.
+
+** Attendance and participation in class activities
+:PROPERTIES:
+:CUSTOM_ID: h:8cf7e71e-752f-4b60-9d4b-3591dda12add
+:END:
+- Based on class attendance and involvement in lecture and tutorial. you are expected to be either able to answer questions about the assigned readings or ask questions about the parts you did not understand. If you are uncomfortable speaking up in class, send the question in Zoom's chat window, post them on Canvas's discussion forums, come to my office hours, or send your questions via e-mail.
+
+You are required to *turn on your video* in class, which will be counted in class attendance per university policy.
+
+** Homework assignments
+:PROPERTIES:
+:CUSTOM_ID: h:f1a2a3e4-f5b4-42a1-a731-0df48867c3fe
+:END:
+- There will be 3 to 4 coding exercise as homework. These homework assignments test your knowledge of analyzing data using statistical software. Each exercise is due in *two weeks* after the release of assignment.
+** Literature review
+:PROPERTIES:
+:CUSTOM_ID: h:a748f561-f753-4fff-8cf0-df65bf803e42
+:END:
+Select a research topic and summarize how past researchers have used computational methods and/or big data to study this particular research area. 
+
+- Some examples of research areas:
+  - Sociology:  internal migration, international migration, social inequality, race and ethnicity relations, happiness,
+  - Political science: government performance, government policy (and its effectiveness), election, social movements
+  - Economics: measuring economic growth with big data
+  - History: historical development of an idea
+  - Psychology: measuring personality with big data
+  - Communication and information science: content and spread of fake news/hate speeches
+- You are recommended to select a research areas that are similar to your final research paper. Students can discuss with instructors and TA for possible topics or feasibility.
+- UG students should form groups of 3 or 4 participants. PG students can work individually or work with another PG student.
+
+
+- Your performances will be accessed in two ways
+  - *Written Report*: each literature review report should contain at least *10 pages, 12 points, double space*. Spell out clearly contributions of each group member in the first page of your report.
+  - *Presentation of literature review* (*20 minutes*): each student/group needs to present their literature reviews in class.
+
+
+- Include the following items in written report and presentations:
+  - What is the research area you have chosen, and why it's important
+  - How people studied it traditionally (e.g., what data they use, what methods they use), and what are limitations of traditional methods/data?
+  - What are the advantages of using computational social science methods and data?
+  - What are the shortcomings of using computational social science methods and data?
+
+** Final paper/project
+:PROPERTIES:
+:CUSTOM_ID: h:349e3b20-23f6-4ecb-880f-088e4d670783
+:END:
+You can choose to write a research final paper, or a project that analyze a "real-world" case.
+The differences between two options lie in their intended audience: research final paper should talk to researchers, while project talk to lay audience.
+The paper/project needs to be performed in the same group for presentation.
+It's recommended that you discuss your ideas with the instructor in early weeks of the course, during offices hours or through emails.
+
+
+- *Research final paper*: choose a research topic and write a research paper *using computational social science methods or digital data*.
+This research article should follow the format of a standard research article, with the following components: introduction; review of past studies; research methods and data; results; conclusions. 
+Consider the articles you read in class and for literature review as good examples of research articles.
+UG students can form groups up to 4 people. PG students can work individually or work with another PG student.
+
+
+- Your performances will be accessed by:
+  - Presentation (*20 minutes*): follow a standard presentation style for academic talks.
+
+  - Final paper/project: *20 pages, 12 points, double space, including Tables, Figures and References*.
+
+
+
+- *Project*: focus on a real-world case. Consider that you want to sell some social science ideas to layman using cool data analysis and visualization. Some ideas of cool demo/projects can be found here: 
+
+  - https://projects.fivethirtyeight.com/
+  - https://github.com/matiasmascioto/awesome-soccer-analytics
+  - https://github.com/academic/awesome-datascience
+  - https://www.kaggle.com/competitions
+Your performance will be evaluated based on the following criteria:
+
+- Presentation (*20 minutes*). Show case your project in front of the class. It can be a presentation.
+
+- Technical report: a short write up on short background/dataset/methods; *10 pages, 12 points, double space*;
+
+** Grading policies
+:PROPERTIES:
+:CUSTOM_ID: h:e3c4e191-90c5-4862-b0dd-ee6504981db4
+:END:
+- *Late delivery* of due items will be marked down 75% if received within 1 day of the due date, and 50% if received within 3 days of the due date; you will receive zero credit if the due item is not delivered within 3 days of the due date. Contact the instructor if there are rare unforeseen circumstances.
+- If you want to dispute a grade, please submit your argument in writing along with your assignment. We will evaluate the merit of your argument as well as perform a full reassessment of your entire assignment. This means that your grade may end up lower than it was originally.
+- Final papers are checked by anti-plagiarism software. Students should take steps to avoid plagiarism and copying. For confirmed cases of plagiarism, severe sanctions – including but not limited to a failure grade – may be imposed.
+* Course Outline (Tentative)
+:PROPERTIES:
+:CUSTOM_ID: h:31ab4f13-6928-4673-ba29-13e7c97efb38
+:END:
+The course materials will be drawn from lecture slides and assigned readings. Readings are available at Canvas.
+You are *required to read the readings before the start of each class (except the first class)*.
+Optional readings are for students who are interested to read more on the topic.
+
+
+** Week 1 (Sep 8) : Digital Traces and Ethics
+:PROPERTIES:
+:CUSTOM_ID: h:a104145b-b68d-4ea5-8a16-0440c6bf2669
+:END:
+- [[#salganik_bit_2019][salganik_bit_2019]]. Chapter 1 and 2. This book can be freely accessible at https://www.bitbybitbook.com/en/1st-ed/preface/
+- [[#lazer_computational_2020][lazer_computational_2020]]
+- [[#salganik_bit_2019][salganik_bit_2019]]. Chapter 6.
+- [[#kramer_experimental_2014][kramer_experimental_2014]]
+
+Optional readings
+
+- [[#lazer_data_2017][lazer_data_2017]]
+- [[#golder_digital_2014][golder_digital_2014]]
+** Week 2 (Sep 15) Prediction vs. Explanation
+:PROPERTIES:
+:CUSTOM_ID: h:caa74759-6e25-49a9-ab5f-c492614c0656
+:END:
+- [[#hofman_prediction_2017][hofman_prediction_2017]]
+- [[#kleinberg_human_2018][kleinberg_human_2018]]
+
+** Week 3 (Sep 22) : Survey
+:PROPERTIES:
+:CUSTOM_ID: h:28f9d677-d856-4367-8369-7fe6ee6645c7
+:END:
+- [[#salganik_bit_2019][salganik_bit_2019]]. Chapter 3.
+- [[#beauchamp_predicting_2017][beauchamp_predicting_2017]]
+
+Optional readings:
+
+- [[#salganik_wiki_2015][salganik_wiki_2015]]
+- [[#mullinix_generalizability_2015][mullinix_generalizability_2015]]
+
+** Week 4 (Sep 29) : Text (I)
+:PROPERTIES:
+:CUSTOM_ID: h:34b295e4-300f-4bd5-8ec9-e3589101e460
+:END:
+- [[#grimmer_text_2013][grimmer_text_2013]]
+- [[#wilkerson_large-scale_2017][wilkerson_large-scale_2017]]
+- [[#denny_text_2018][denny_text_2018]]
+
+Optional readings:
+
+- [[#benoit_kenneth_text_2020][benoit_kenneth_text_2020]]
+- [[#gentzkow_text_2019][gentzkow_text_2019]]
+- [[#goldberg_primer_2015][goldberg_primer_2015]]
+** Week 5 (Oct 6)  : Text (II); Dictionary and Supervised
+:PROPERTIES:
+:CUSTOM_ID: h:6aad47b5-494f-4786-a3fe-847118306b5f
+:END:
+- [[#benoit_crowd-sourced_2016][benoit_crowd-sourced_2016]]
+- [[#barbera_automated_2020][barbera_automated_2020]]
+
+** Week 6 (Oct 13) : Text (III); Unsupervised And Word Embeddings
+:PROPERTIES:
+:CUSTOM_ID: h:c41a7f09-23c5-4ba6-8721-8f1053276313
+:END:
+- [[#barbera_who_2019][barbera_who_2019]]
+- [[#garg_word_2018][garg_word_2018]]
+- [[#klingenstein_civilizing_2014][klingenstein_civilizing_2014]]
+
+
+Optional readings
+
+- [[#blei_probabilistic_2012][blei_probabilistic_2012]]
+- [[#roberts_structural_2014][roberts_structural_2014]]
+- [[#blaydes_mirrors_2018][blaydes_mirrors_2018]]
+
+** Week 7 (Oct 20) : Images and Spatial Data
+:PROPERTIES:
+:CUSTOM_ID: h:b305879b-e6f5-4482-ab22-1a8e5d3d16c5
+:END:
+- [[#zhang_casm_2019][zhang_casm_2019]]
+- [[#jean_combining_2016][jean_combining_2016]]
+- [[#gebru_using_2017][gebru_using_2017]]
+
+** Week 8 (Oct 27) : Network (I); small world
+:PROPERTIES:
+:CUSTOM_ID: h:39b23d24-5dab-4672-8aa9-3db2743c8b00
+:END:
+- [[#watts_small_1999][watts_small_1999]]
+- [[#lazer_computational_2009][lazer_computational_2009]]
+** Week 9 (Nov 3)  : Network (II); social influence vs. homophily
+:PROPERTIES:
+:CUSTOM_ID: h:d2d1e708-1faa-4e2f-a94a-c991b45215f2
+:END:
+- [[#christakis_spread_2007][christakis_spread_2007]]
+- [[#bakshy_role_2012][bakshy_role_2012]]
+- [[#lewis_social_2012][lewis_social_2012]]
+
+** Week 10 (Nov 10): Network (III): simulations and tipping points
+:PROPERTIES:
+:CUSTOM_ID: h:6e6189fe-3236-4634-bb5e-28fc709702dc
+:END:
+- [[#schelling_micromotives_2006][schelling_micromotives_2006]]
+
+** Week 11 (Nov 17): Causal inference: online field experiment
+:PROPERTIES:
+:CUSTOM_ID: h:8de77bda-e67e-44a5-ad77-422d83e1840c
+:END:
+- [[#salganik_bit_2019][salganik_bit_2019]]. Chapter 4.
+- [[#chen_online_2015][chen_online_2015]]
+
+** Week 12 (Nov 24): Warp ups; Presentations
+:PROPERTIES:
+:CUSTOM_ID: h:17d16de9-90aa-434d-aa2c-bb7e3e235d2c
+:END:
+
+** Week 13 (Dec 1) : Presentation of final paper and projects
+:PROPERTIES:
+:CUSTOM_ID: h:f99f63fb-9d0b-40c7-afcc-29d29a2f65dc
+:END:
+* Tutorial Schedule (Tentative)
+:PROPERTIES:
+:CUSTOM_ID: h:6d264e15-6ba8-4e03-9ad3-18051c136ef4
+:END:
+| Week        | Topic                                             |
+| 1 (Sep 8)   | Reproducible Research; Git and Project Management |
+| 2 (Sep 15)  | Reproducible Research; literacy programming       |
+| 3 (Sep 22)  | Survey: offline and online                        |
+| 4 (Sep 29)  | Text data: basic operations                       |
+| 5 (Oct 6)   | Text data: dictionary counts                      |
+| 6 (Oct 13)  | Text data: supervised learning                    |
+| 7 (Oct 20)  | Text data: topic models                           |
+| 8 (Oct 27)  | Network: basic operations                         |
+| 9 (Nov 3)   | Networks: visualization                           |
+| 10 (Nov 10) | Networks: simulations                             |
+| 11 (Nov 17) | Networks: statistic                               |
+| 12 (Nov 24) | Online experiments                                |
+| 13 (Dec 1)  |                                                   |
