@@ -1,0 +1,734 @@
+% Created 2020-09-08 Tue 02:36
+% Intended LaTeX compiler: pdflatex
+\documentclass[handout]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage{natbib}
+\usepackage{grffile}
+\usepackage{letltxmacro}
+\LetLtxMacro\olditemize\itemize
+\renewcommand{\itemize}[1][<+->]{\olditemize[#1]}
+\newtheorem{hyp}{Hypothesis}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{chronology}
+\usepackage{tabu}
+\usepackage{smartdiagram}
+\usesmartdiagramlibrary{additions}
+\usepackage{tikz}
+\newcommand{\gray}{\textcolor{gray}}
+\usepackage{scalerel,stackengine}
+\stackMath
+\newcommand\reallywidehat[1]{%
+\savestack{\tmpbox}{\stretchto{%
+\scaleto{%
+\scalerel*[\widthof{\ensuremath{#1}}]{\kern-.6pt\bigwedge\kern-.6pt}%
+{\rule[-\textheight/2]{1ex}{\textheight}}%WIDTH-LIMITED BIG WEDGE
+}{\textheight}%
+}{0.5ex}}%
+\stackon[1pt]{#1}{\tmpbox}%
+}
+\newcommand{\indep}{\rotatebox[origin=c]{90}{$\models$}}
+\newcommand{\mathco}[2]{\colorbox{#1}{$\displaystyle #2$}}
+\usepackage{bibentry}
+\usetheme{Singapore}
+\author{Han Zhang}
+\date{Sep 8, 2020}
+\title{SOSC 4300/5500: Overview}
+\hypersetup{
+ pdfauthor={Han Zhang},
+ pdftitle={SOSC 4300/5500: Overview},
+ pdfkeywords={},
+ pdfsubject={SOSC 4300/5500},
+ pdfcreator={Emacs 26.3 (Org mode 9.1.9)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\begin{frame}{Outline}
+\tableofcontents
+\end{frame}
+
+\bibliographystyle{amsalpha}
+\nobibliography{/home/han/Dropbox/Writings/globalbib/zoterolibrary}
+\section{Computational Social Science}
+\label{h:2db2563a-f2d1-43d5-9802-f8de3f82863c}
+\begin{frame}[label={h:0eb7ed81-15c7-408d-be2a-112418fd2fb6}]{Before Digital Revolution}
+\begin{itemize}
+\item \small{https://www.familysearch.org/blog/en/1790-census-form-questions/}
+\end{itemize}
+\begin{center}
+\includegraphics[width=0.38\linewidth]{/home/han/Dropbox/Materials/HKUST/Teaching/SOSC4300-5500/photos/PD60004859_HowToReadThe1790_Census_FINAL.jpg}
+\end{center}
+\end{frame}
+
+\begin{frame}[label={h:04e745da-c244-4d88-9bc6-23cdb92eae78}]{Before Digital Revolution}
+\begin{itemize}
+\item And then we calculate some statistics from census surveys
+\item 1890 US census took \alert{8 years} to clean and process by humans
+\end{itemize}
+\begin{center}
+\includegraphics[width=0.38\linewidth]{/home/han/Dropbox/Materials/HKUST/Teaching/SOSC4300-5500/photos/census_statistics.png}
+\end{center}
+\end{frame}
+
+\begin{frame}[label={h:3e0d46ea-646e-4c4a-8196-64817b5d805f}]{With modern computers}
+\begin{itemize}
+\item Invented in 1940s, modern personal computers become popular since 1980s
+\item Calculation becomes much faster with computers
+\begin{itemize}
+\item Imagine solving a regression by hand without computers!
+\end{itemize}
+\item But data are still in analog format; they are represented in a physical way.
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label={h:b8b84693-c471-48c6-b150-5457bf9e4d22}]{Welcome to the digital age}
+\begin{itemize}
+\item Since 2000, both computing power and digital data are quickly increasing
+\item Hilbert, Martin, and Priscila López. 2011. “The World’s Technological Capacity to Store, Communicate, and Compute Information.” \emph{Science} 332 (6025):60–65.
+\end{itemize}
+
+\begin{center}
+\includegraphics[width=0.8\linewidth]{/home/han/Dropbox/Materials/HKUST/Teaching/SOSC4300-5500/photos/bitbybit1-1_hilbert_worlds_2011_fig2_and_5.png}
+\end{center}
+\end{frame}
+\begin{frame}[label={h:9ff4f276-ee5c-4ab7-9244-cb15e73ee349}]{Welcome to the digital age}
+\begin{itemize}
+\item Computers everywhere, \alert{digital traces} everywhere
+\begin{itemize}
+\item personal computers, mobile phones, cars, watches, thermostats, CCTV cameras\ldots{}
+\item these devices not only \alert{calculate}; they also \alert{measure} and \alert{store} lots of digital data
+\item E.g., 20 years ago, you may walk into a bookstore and browse books; no traces will be left once you walk outside the book store
+\item Now, your entire online browsing and purchasing behaviors are stored, and will be used for advertising or recommendation for similar products
+\item Digital traces do not need to be on Internet!
+\begin{itemize}
+\item E.g., octopus card swipes allow companies to locate your moving trajectories
+\end{itemize}
+\end{itemize}
+\item \alert{Digital traces} are byproducts of people’s everyday actions, often collected by companies.
+\begin{itemize}
+\item Before digital age, they just fade away, but now they are kept
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label={h:a67b0375-9572-433f-af51-98d5fc83a060}]{Welcome to the digital age}
+\begin{itemize}
+\item More and more governments and organizations are also turning traditional analog data into digital data
+\item From printed newspapers to electronic newspaper databases
+\item From printed maps to Google maps
+\item\relax [in class activity]: can you think of other examples of digital data that are transformed from traditional analog data?
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label={h:04513c0c-1de5-44d8-9fb9-15125539a826}]{Big Data}
+\begin{itemize}
+\item Together, we call digital traces and traditional data that are turned into digital data as \alert{Big Data}
+\item ``Big data are created and collected by companies and governments \alert{for purposes other than research}''
+\item \bibentry{salganik_bit_2019}
+\item \url{https://www.bitbybitbook.com/en/1st-ed/observing-behavior/data/}
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label={h:583acb28-273c-4fe2-8550-e4528741ebf9}]{Big data vs traditional social science data}
+\begin{itemize}
+\item Traditional social science data are made for research
+\begin{itemize}
+\item Although the data are small, they are ready to use for examining social science theories
+\end{itemize}
+\item Big data are \alert{repurposed} for research
+\begin{itemize}
+\item They are big
+\item But you need some effort to get what you want
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label={h:e9dbd88d-d6bd-46bb-8ba6-ae1b3aa25032}]{Big data need different methods}
+\begin{itemize}
+\item Previously social scientists have survey and sometimes small administrative data
+\begin{itemize}
+\item Using various \alert{regression} models to analyze the data
+\end{itemize}
+\item Big data are not only big, but also qualitatively different in their formats:
+\begin{itemize}
+\item Texts
+\item Images, Video, Audio
+\item Networks
+\end{itemize}
+\item Analyzing the above need other methods, in particular \alert{machine learning}
+\begin{itemize}
+\item Regression in most times won't work!
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label={h:a93f4d62-64b3-4304-bce1-3fa736e52498}]{Social scientists and data scientists}
+\begin{itemize}
+\item Status quo:
+\item Social scientists: computational \alert{social science}
+\begin{itemize}
+\item Try to turn big data into small data, and then apply traditional regression models
+\end{itemize}
+\item Data scientists: \alert{computational} social science
+\begin{itemize}
+\item Get more data, and apply some fancy machine learning algorithms over social data
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label={h:23e38fef-d8ab-452f-a9a7-e8d50ca38bfa}]{Computational Social Science}
+\begin{itemize}
+\item Social science itself is not enough, because data can only gets bigger
+\item Data science itself is not enough, if we want to study social behaviors rigorously
+\item Computational social science (CSS): bridging social and data science
+\end{itemize}
+\end{frame}
+\begin{frame}[label={h:06fbc80e-a2ee-4e5d-a283-3596856bef36}]{Computational Social Science (CSS)}
+\begin{center}
+\includegraphics[width=0.9\linewidth]{/home/han/Dropbox/Materials/HKUST/Teaching/SOSC4300-5500/photos/CSS.png}
+\end{center}
+\end{frame}
+\begin{frame}[label={h:d3336ac6-87c9-4470-80fe-2ce5006d19c8}]{Study Goals}
+\begin{enumerate}
+\item Describe the opportunities and challenges of computational social science
+
+\item Evaluate computational social science research on social phenomena
+
+\item Practice the essential techniques to analyze social big data (covered in Tutorials)
+
+\begin{itemize}
+\item Getting data
+\item Managing data
+\item Analyzing data with appropriate methods
+\end{itemize}
+
+\item Propose research questions that are suited to be examined by computational methods with big data
+
+\item Write a research article that utilizes the techniques and methods of computational social science to address social science problems, or design a project that use computational social science to address some real-world problems.
+\end{enumerate}
+\end{frame}
+\section{Logistics}
+\label{h:9c6f21cf-6127-4034-8514-a7d7133014da}
+\begin{frame}[label={h:f9275900-b43f-404d-91a6-f0f21c5aadce}]{Instructors}
+\alert{Instructor}: ZHANG, Han
+\begin{itemize}
+\item Office: 2379
+\item Email: zhangh@ust.hk
+\item Office Hour: Tue 2-3PM (or email me to find a time)
+\begin{itemize}
+\item In office (if you are on campus)
+\item Zoom: \url{https://hkust.zoom.us/j/6522716568}
+\end{itemize}
+\end{itemize}
+
+
+\alert{Teaching Assistant}: PENG, Wenwei
+
+\begin{itemize}
+\item Office: 3001
+\item Email: wpengad@connect.ust.hk
+\item Office Hour: TBD
+\begin{itemize}
+\item Zoom: \url{https://hkust.zoom.us/j/8653678438}
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label={h:769F09D5-2DD4-4370-A17F-DA0382FFE02B}]{Online teaching}
+\begin{itemize}
+\item Some rules:
+\begin{itemize}
+\item Keep the video on (this will be counted as class participation)
+\item Mute yourself while not speaking
+\item Feel free to stop me at any time if you have any question
+\item Recordings will be available after class
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label={h:46e1cba6-547f-41f8-a5e2-1130a5074a75}]{Course material}
+\begin{itemize}
+\item We will use GitHub for teaching
+\item Lecture material and tutorial will be available at: \url{https://github.com/HKUST-SOSC4300-5500}
+\item Please use the version on GitHub as the authoritative version
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label={h:23cf13ad-9dd8-4585-8d2c-a27667854b7e}]{Schedule (tentative)}
+\begin{center}
+\begin{tabular}{|l|l|l|}
+Week & Topic\\
+1 (Sep 8) & Introduction; big data\\
+2 (Sep 15) & Machine learning; prediction vs explanation\\
+3 (Sep 22) & Survey\\
+3 (Sep 22) & Text (I)\\
+5 (Oct 6) & Text (II)\\
+6 (Oct 13) & Text (III)\\
+7 (Oct 20) & Images, Videos and Audio\\
+8 (Oct 27) & Network (I);\\
+9 (Nov 3) & Network (II);\\
+10 (Nov 10) & Network (III):\\
+11 (Nov 17) & Causal inference: online field experiment\\
+12 (Nov 24) & Causal inference: big data\\
+13 (Dec 1) & Presentation of final paper and projects; wrap up\\
+\end{tabular}
+\end{center}
+\end{frame}
+\begin{frame}[label={h:c4270a41-b6e4-402a-99b1-4928313ab8d3}]{Grading Components}
+\begin{center}
+\begin{tabular}{|l|l|l|l|}
+ & UG students & PG students & Due\\
+Attendence and participation & 10\% & 10\% & \\
+Homework assignments & 20\% (independent) & 20\% (independent) & Two weeks\\
+Literature review &  &  & \\
+~ ~ ~ ~ Report & 15\% (3-4 people) & 15\%  (1-2 people) & TBD\\
+~ ~ ~ ~ Presentation & 10\% (3-4 people) & 10\% (1-2 people) & TBD\\
+Final Paper/Project &  &  & \\
+~ ~ ~ ~ Presentation & 15\% (3-4 people) & 15\% (1-2 people) & Dec 1\\
+~ ~ ~ ~ Write-up & 30\% (3-4 people) & 30\% (1-2 people) & Dec 15\\
+\end{tabular}
+\end{center}
+\end{frame}
+
+\begin{frame}[label={h:e38686ef-1236-46dd-96ec-079dfb1147e1}]{Class participation}
+\begin{itemize}
+\item Answer questions about the assigned readings
+\item Ask questions about the parts you did not understand.
+\item If you are uncomfortable speaking up in class, send the question in Zoom's chat window, post them on Github, come to my office hours, or send your questions to instructors via e-mail.
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label={h:970b707a-4796-4e66-8155-f4e792472bc5}]{Literature Review}
+\begin{itemize}
+\item Select a research topic and summarize how researchers have used computational methods and/or big data to study this particular research area.
+\item Some examples of research areas:
+\begin{itemize}
+\item Sociology:  internal or international migration, social inequality, race and ethnicity relations, wellbeing
+\item Political science: government performance, government policy effectiveness, election, protests and social movements
+\item Economics: measuring economic growth with big data
+\item History: historical development of an idea
+\item Psychology: measuring personality with big data
+\item Communication and information science: content and spread of fake news/hate speeches on social media
+\end{itemize}
+\end{itemize}
+\end{frame}
+\begin{frame}[label={h:f4f3ccb5-ee16-4d34-8c42-7b56cb5fc8ff}]{Literature Review}
+\begin{itemize}
+\item Your performances will be accessed in two ways
+\begin{itemize}
+\item \alert{Written Report}: each literature review report should contain at least \alert{10 pages, 12 points, double space}. Spell out clearly contributions of each group member in the first page of your report.
+\item \alert{Presentation of literature review} (\alert{15 minutes}): each student/group needs to present their literature reviews in class.
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label={h:e849f823-9751-4b8d-aa48-036ac7303852}]{Final Paper/Project}
+\begin{itemize}
+\item You can choose to write a research final paper
+\begin{itemize}
+\item The intended audience for research final paper are other \alert{researchers}
+\end{itemize}
+\item Or a project that analyze a ``real-world'' case.
+\begin{itemize}
+\item Project should attract \alert{layman}
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label={h:562a25b7-63d6-4465-9895-dba8a85c5d35}]{Final Paper/Project}
+\begin{itemize}
+\item If you choose to write an research paper:
+\begin{itemize}
+\item Presentation (\alert{20 minutes}): follow a standard presentation style for academic talks.
+\item Final paper/project: \alert{20 pages, 12 points, double space, including Tables, Figures and References}.
+\end{itemize}
+\item If you choose to do a project:
+\begin{itemize}
+\item Presentation (\alert{20 minutes}). Show case your project in front of the class.
+\item Technical report: a short write up on short background/dataset/methods; \alert{10 pages, 12 points, double space};
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\section{Git and GitHub}
+\label{h:65ad84f2-01da-4fa6-8c04-bc0440de0511}
+\begin{frame}[label={h:9f385451-0bf7-4d13-b71a-1baecb2a18d3}]{We will use GitHub for teaching}
+\begin{itemize}
+\item We will use GitHub for teaching
+\item GitHub is commonly used among researchers and companies
+\item It allows us to manage individual research workflow more easily
+\item And allows team work easily (especially if you have lots of codes/data)
+\item Last, GitHub simplifies sharing data and codes, making research more transparent and useful for the community
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label={h:a5507e6f-d29b-40ab-ac97-b4852a58ed30}]{So what is it?}
+Linus Torvalds: creator of Linux
+
+\begin{center}
+\includegraphics[width=0.4\linewidth]{/home/han/Dropbox/Materials/HKUST/Teaching/SOSC4300-5500/photos/linus.jpg}
+\end{center}
+\end{frame}
+
+\begin{frame}[label={h:f78d75ba-a202-431e-8638-663e6294d5c0}]{When Linux grows}
+\begin{itemize}
+\item Over 30,000 files; 15 Million lines of codes in 2012
+\item Version control
+\begin{itemize}
+\item We will update a file, but want to keep some old version if we need to roll back
+\item Renaming files to file.r, file\_ver1.r, file\_ver2.r \(\cdots\): an ugly solution
+\end{itemize}
+\item Project management: 
+\begin{itemize}
+\item Multiple people working on the same file
+\item Contributors send Linus code chunks, and Linus put these code chunks to its appropriate place manually
+\item Error prone: over 3,500 lines of codes added per day
+\end{itemize}
+\item So Linus intended \alert{Git}
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile,label={h:0fc75871-6104-4b9f-a078-b856b0354b8c}]{Git for version control}
+ \begin{itemize}
+\item Version control (If you are working individually):
+\begin{itemize}
+\item \texttt{add} file.r=: start to track changes of file.r
+\item \texttt{commit} file.r= : record changes locally
+\begin{itemize}
+\item First commit records the oldest version of a file
+\item Newest commit records the most recent version of a file
+\item Only changes in a file will be saved; saving disk spaces
+\end{itemize}
+\item \texttt{push} file.r= : send committed changes to GitHub so that others can view it
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile,label={h:e757a7c4-e53e-43cc-b8ec-eec0ce645a35}]{Git for version control: example}
+ \begin{itemize}
+\item Say you are working on assignment 1, with a R script \texttt{homework1.r}
+\item Step 1: add \texttt{homework1.r} to tell \texttt{git} to pay attention to changes in this file
+\item Whenever you want to save a version for backup, \texttt{commit homework1.r}
+\item When you feel you are ready to submit, push to GitHub
+\begin{itemize}
+\item Of course you can push multiple times, if deadline is not passed.
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile,label={h:7f9f2f5c-d99a-4153-9ecc-b1e950ed9798}]{Git for project management}
+ \begin{itemize}
+\item Project management for groups: (called repository or repo)
+\begin{itemize}
+\item Owner controls \alert{master branch}; this is the central and authoritative version
+\item Every member works with his own local version (called \alert{local branch})
+\item Only owner can directly \texttt{push} to the central version
+\item Members can create \texttt{pull request}, which allow the owner to \emph{pull} changes from local branch to master branch
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label={h:4622c24b-2cd0-4572-84ce-f72548b593dd}]{GitHub}
+\begin{itemize}
+\item Git is free;
+\item GitHub is an online service that stores Git repository;
+\begin{itemize}
+\item Student can get a free version, allowing you to obtain \alert{private} repo.
+\end{itemize}
+\item GitHub also allows us to share codes and data easily
+\item \url{https://github.com/HKUST-SOSC4300-5500/Tutorial-Material/blob/master/week1/1-Hello-World.ipynb}
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile,label={h:d368594f-5260-4105-919a-dd1e64585794}]{Three ways to use Git}
+ \begin{itemize}
+\item Command line: for advanced and interested users
+\item \alert{Recommended}: Through GitHub's official app. MacOS and Windows version can be downloaded at \url{https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/installing-github-desktop}
+\item Directly upload files on GitHub website
+\begin{itemize}
+\item Note: if you directly upload a file on GitHub in your own repo, you are performing \texttt{add}, \texttt{commit} and \texttt{push} operation simultaneously
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile,label={h:13964150-a838-47ec-901f-af8e0765bab4}]{How we use GitHub for this class}
+ \begin{itemize}
+\item Lecture and tutorial material will be available at \url{https://github.com/HKUST-SOSC4300-5500}
+\begin{itemize}
+\item You can view and download the files
+\end{itemize}
+\item Assignment will be submitted on GitHub: \url{https://classroom.github.com/classrooms/70853257-hkust-sosc4300-5500-classroom-1}
+\begin{itemize}
+\item Homework will be \alert{private}: only you and instructors can see your commits
+\item Literature review and final paper/project will be \alert{public}: since these knowledge will be beneficial to others
+\item We will set deadlines; your last \texttt{push} before the deadline will be automatically treated as your final submitted version
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label={h:d125ea27-89f2-4ba9-80ff-5f55fbd29f72}]{How we use GitHub for this class}
+\begin{itemize}
+\item You can ask question about lecture or tutorials under ``Issues'' tab
+\item TA and I will answer these questions
+\end{itemize}
+\end{frame}
+
+\section{Big Data: Opportunities and Challenges for Social Scientists}
+\label{h:7da7b823-0018-4703-964a-4c02d952b693}
+\begin{frame}[label={h:06fbc80e-a2ee-4e5d-a283-3596856bef36}]{Computational Social Science (CSS)}
+\begin{center}
+\includegraphics[width=0.9\linewidth]{/home/han/Dropbox/Materials/HKUST/Teaching/SOSC4300-5500/photos/CSS.png}
+\end{center}
+\end{frame}
+
+\begin{frame}[label={h:9e18d988-631c-4326-8465-0ab5e06fcd0e}]{Roadmap}
+\begin{itemize}
+\item We will discuss 10 characteristics of big data, following
+\item Chapter 2, \bibentry{salganik_bit_2019}
+\item \url{https://www.bitbybitbook.com/en/1st-ed/observing-behavior/data/}
+\item After our discussions, you can critically evaluate pros and cons of big data
+\end{itemize}
+\end{frame}
+\begin{frame}[label={h:e28d3acc-2c55-4e75-9c83-4bf4839787c4}]{Characteristics 1: Big}
+\footnotesize  
+\begin{itemize}
+\item \bibentry{michel_quantitative_2011}
+\item They turned Google Books into word counts and released the data
+\end{itemize}
+\begin{quote}
+“[Our] corpus contains over 500 billion words, in English (361 billion), French (45 billion), Spanish (45 billion), German (37 billion), Chinese (13 billion), Russian (35 billion), and Hebrew (2 billion). The oldest works were published in the 1500s. The early decades are represented by only a few books per year, comprising several hundred thousand words. By 1800, the corpus grows to 98 million words per year; by 1900, 1.8 billion; and by 2000, 11 billion. The corpus cannot be read by a human. If you tried to read only English-language entries from the year 2000 alone, at the reasonable pace of 200 words/min, without interruptions for food or sleep, it would take 80 years. The sequence of letters is 1000 times longer than the human genome: If you wrote it out in a straight line, it would reach to the Moon and back 10 times over.”
+\end{quote}
+\end{frame}
+
+\begin{frame}[label={h:7bfb9ba9-36a4-40cb-baa2-b8e81e499d21}]{Characteristics 1: Big}
+\begin{itemize}
+\item Explore their project here: \url{https://books.google.com/ngrams}
+\item E.g., ``In the battle of the sexes, the women are gaining ground on the men''
+\end{itemize}
+\begin{center}
+\includegraphics[width=0.6\linewidth]{/home/han/Dropbox/Materials/HKUST/Teaching/SOSC4300-5500/photos/men-women.png}
+\end{center}
+\begin{itemize}
+\item\relax [In class discussion]: do we really need this many data to draw the conclusion that women's right are rising? Can't we use smaller data to reach the same conclusion?
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label={h:85a72ae8-ba2b-4ec2-9756-53413590c23a}]{Characteristics 1: Big}
+\begin{itemize}
+\item Big data are good at showing heterogeneity, which cannot be obtained by smaller data
+\item (Chetty et al. 2014), estimates of a child’s chances of reaching the top 20\% of income distribution given parents in the bottom 20\% .
+\item ``The regional-level estimates, which show heterogeneity, naturally lead to interesting and important questions that do not arise from a single national-level estimate. These regional-level estimates were made possible in part because the researchers were using a large big data source: the tax records of 40 million people.
+\end{itemize}
+
+
+\begin{center}
+\includegraphics[width=0.4\linewidth]{/home/han/Dropbox/Materials/HKUST/Teaching/SOSC4300-5500/photos/bitbybit2-1_heterogeneity_chetty.png}
+\end{center}
+\end{frame}
+
+\begin{frame}[label={h:4241083b-08f4-420a-ab2e-711b9619f61e}]{Characteristics 2: Always-on}
+\begin{itemize}
+\item Traditional data survey: once a year, or on demand
+\item Big data: always-on measure
+\item \bibentry{budak_dissecting_2015}
+\item What kinds of people were more likely to participate in the Gezi protests in 2013?
+\item Whether participation changed attitudes of participants and nonparticipants differently?
+\item Hard with survey data: 
+\begin{itemize}
+\item You cannot predict when a protest occur, and thus cannot get \alert{pre-protest} information
+\item It's also not easy to get samples of non-participants
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label={h:d747f547-58e1-4be5-9d71-f7ec2f4a73f6}]{Characteristics 2: Always-On}
+\begin{itemize}
+\item Using geolocated posts on Twitter
+\end{itemize}
+\begin{center}
+\includegraphics[width=0.8\linewidth]{/home/han/Dropbox/Materials/HKUST/Teaching/SOSC4300-5500/photos/bitbybit2-2_budak_dissecting_2015_schematic.png}
+\end{center}
+\end{frame}
+\begin{frame}[label={h:9ee50f3d-8419-475e-8908-08a611ba651b}]{Characteristics 3: Non-Reactive}
+\begin{itemize}
+\item Big data are mostly obtained \alert{unobtrusively}; 
+\begin{itemize}
+\item People are generally not aware that their data are being captured
+\end{itemize}
+\item Survey and lab experiments obtain data \alert{obtrusively}, and results often depend on how you ask
+\end{itemize}
+
+\begin{center}
+\includegraphics[width=0.6\linewidth]{/home/han/Dropbox/Materials/HKUST/Teaching/SOSC4300-5500/photos/blog_gss_welfare_vs_poor.png}
+\end{center}
+\end{frame}
+
+\begin{frame}[label={h:12d58b4a-13cd-4805-bd80-22e6ef280ba1}]{Characteristics 3: Non-Reactive}
+\begin{itemize}
+\item\relax [In class activity]: is non-reactiveness always good?
+\item What people put on social media may be just showing off, not their daily lives
+\item Sometimes it is quicker to ask, especially for questions that are less likely to vary depending on how you ask
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label={h:ff61aa6c-ed66-4933-8355-609cc1ccb2f0}]{Characteristics 4: Incomplete}
+\begin{itemize}
+\item ``No matter how big your big data, it probably doesn't have the information you want''
+\item This is a property of \alert{re-purposing} the data; 
+\begin{itemize}
+\item for survey and lab experiments, you can in principle ask what you want
+\end{itemize}
+\item Three types of data are especially likely to be missing
+\begin{itemize}
+\item demographic information
+\begin{itemize}
+\item E.g., Google N-grams has gigantic dataset, but does not directly has author's biography
+\end{itemize}
+\item behavior on other platforms
+\item data to operationalize theoretical concepts
+\begin{itemize}
+\item people who are more intelligent earn more money
+\item how do you measure intelligence with big data? Not easy
+\end{itemize}
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label={h:bd21439d-870e-4aae-9ff3-20c0302dc137}]{Characteristics 4: Incomplete}
+\begin{itemize}
+\item But incompletness may also occur for traditional survey data. 
+\begin{itemize}
+\item A national representative survey does not
+\end{itemize}
+\item\relax [in class activity] E.g., a classical argument in social networks: the more centered you are in social network, the more wealthy you are
+\begin{itemize}
+\item How do we test this argument with survey data?
+\item How can we test this argument with big data?
+\item What will be the best data source you can think of?
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label={h:87430be5-e71e-4157-8edc-a4dd60207be0}]{Characteristics 5: Inaccessible}
+\begin{itemize}
+\item Many useful data are not directly available to researchers; they are stored in government and company servers
+\item Reason 1: commercial/government secrets
+\item Reason 2: terms-of-service agreements
+\item Reason 3: releasing data sometimes lead to privacy concerns
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label={h:a41b8b80-32b9-46dc-94a2-21f44f22416f}]{Characteristics 6: Nonrepresentative}
+\begin{itemize}
+\item Many big data sources are not representative samples from some well-defined population
+\item\relax [in class activity] So does it mean big data are not useful? When nonrepresentative data are useful?
+\end{itemize}
+\end{frame}
+\begin{frame}[label={h:6eea847d-4ecf-44b6-be80-1d560f1ae8c8}]{Characteristics 7: Drifting}
+\begin{itemize}
+\item Digital world changes so quick so that it's still too early to use big data to study long-term trends
+\item Population drift (change in who is using them)
+\item Behavioral drift (change in how people are using them)
+\item System drift (change in the system itself).
+\end{itemize}
+\end{frame}
+\begin{frame}[label={h:9b2a4fa4-28ac-4ef8-a0b6-50284db8c352}]{Characteristics 8: Algorithm Confounded}
+\begin{itemize}
+\item Again, gov/companies control the data generating process
+\item E.g., to what extend your friends of friends are more likely to be your friends?
+\begin{itemize}
+\item It's called \emph{triad closure} in social network analysis
+\end{itemize}
+\item With social networks such as Facebook, it's possible to empirical measure this quantity precisely
+\item Until Facebook began to recommend friends to users
+\item Now, are what we observe because of Facebook's recommendation or innate tendency for friends of friends to become friends?
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label={h:f946b822-ebef-4c02-91d4-1dccdc31cc72}]{Characteristics 9: Dirty}
+\begin{itemize}
+\item ``Big data sources can be loaded with junk and spam''
+\item Example: \bibentry{pechenick_characterizing_2015}
+\item Problem 1: OCR error
+\item The count of F-word between 1800 to 2000
+\item Are people suddenly become more polite after 1800?
+\item No! it's because \emph{s} in old books are often written as a long s that looks like f before and around 1800s; so Google Books treat suck as the f-word in 1800.
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label={h:9c0baf99-1e67-45ec-b741-112839de06b2}]{Characteristics 9: Dirty}
+\begin{itemize}
+\item Example 2: figure vs Figure
+\item Why Figure is significantly used more than figure?
+\item Oversampling of scientific literature
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label={h:65abf552-e659-4545-b2c7-488ebc83d778}]{Characteristics 10: Sensitive}
+\begin{itemize}
+\item Some of the information that companies and governments have is sensitive.
+\item Even if we tried to anonymize data
+\item This lead to potential ethical questions
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label={h:f6368a21-97ea-4295-bbbc-24f1ac7d1279}]{Characteristics 10: Sensitive}
+\begin{itemize}
+\item Example 1: how anonymization fails
+\item Group Insurance Commission (GIC) was a government agency responsible for purchasing health insurance for all state employees in Massachusetts.
+\item GIC released some health information to spur research, and anonymized the part they thought were sensitive
+\end{itemize}
+
+\begin{center}
+\includegraphics[width=0.6\linewidth]{/home/han/Dropbox/Materials/HKUST/Teaching/SOSC4300-5500/photos/bitbybit6-4_anonymization.png}
+\end{center}
+\end{frame}
+
+\begin{frame}[label={h:9cf3086e-02e2-4ad1-a510-2380d6f7ff5e}]{Characteristics 10: Sensitive}
+\begin{itemize}
+\item But Latanya Sweeney (now a Professor at Harvard) found that she could merge GIC data with public voter registration record
+\end{itemize}
+
+\begin{center}
+\includegraphics[width=0.5\linewidth]{/home/han/Dropbox/Materials/HKUST/Teaching/SOSC4300-5500/photos/bitbybit6-5_re-identified.png}
+\end{center}
+
+\begin{itemize}
+\item And in this way, she was able to find a unique match: then governor of Massachusetts.
+\item Sometimes, even good intention and best effort to anonymize can lead to potential harm
+\item Things can only be worse if no effort has been made to protect privacy
+\end{itemize}
+\end{frame}
+\begin{frame}[label={h:439e90ee-3c98-42e2-a992-e5311c305341}]{Summary}
+\begin{itemize}
+\item We have summarized 10 characteristics of big data
+\item You should be able to ``describe the opportunities and challenges'' brought by big data
+\item And when you evaluate future studies using big data
+\begin{itemize}
+\item \alert{critically} evaluate their strength and weakness
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label={h:218f839a-12eb-49e9-b1eb-3a8a990a42a6}]{Next week's plan}
+\begin{itemize}
+\item We will cover basic ideas of machine learning
+\item It helps you to ``describe the opportunities and challenges'' brought by machine learning
+\item And \alert{critically} evaluate strength and weakness of using machine learning to study social phenomena
+\end{itemize}
+\end{frame}
+\end{document}
