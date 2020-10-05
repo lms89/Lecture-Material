@@ -20,8 +20,13 @@ In the terminology of `quanteda`, `type` means *unique* words. `Token` mean any 
 
 ```{r, message=F}
 library(quanteda)
+
 library(data.table) # this package help you to read large files quicker
 reviews <- fread("train.csv") # fread() is a function in data.table
+```
+
+Transform CSV file into a `corpus` object in `quanteda` package.
+```{r}
 twcorpus <- corpus(reviews$text)
 summary(twcorpus, n=10)
 ```
@@ -29,14 +34,14 @@ summary(twcorpus, n=10)
 A very useful feature of corpus objects is _keywords in context_, which returns all the appearances of a word (or combination of words) in its immediate context.
 
 ```{r}
-kwic(twcorpus, "like", window=5)[1:5,]
+kwic(x = twcorpus, pattern = "like", window=5, separator = "}")[1:5,]
 ```
 
 
-We can then convert a corpus into a document-feature matrix using the `dfm` function.
+We can then convert a corpus into a document-feature matrix (document-term matrix) using the `dfm` function.
  
 ```{r}
-doc.term <- dfm(twcorpus, verbose=TRUE)
+doc.term <- dfm(x = twcorpus, verbose=TRUE)
 doc.term
 ```
 
@@ -46,11 +51,12 @@ Similar to a normal matrix, the dimension of  document-term matrix in `quanteda`
  dim(doc.term)
 ```
 
-To see how frequent a word appears, just take som the column. For instance, to get how many times the word `school` appears:
+To see how frequent a word appears, just take sum the column. For instance, to get how many times the word `school` appears:
 
 ```{r}
-which_column_num_is_school <- which(colnames(doc.term) == "school") ## it's the 8-th column
-colSums(doc.term[,which_column_num_is_school])
+which_column_num_is_school <- which(colnames(doc.term) == "school")
+print (which_column_num_is_school)
+print (sum(doc.term[,which_column_num_is_school]))
 ```
 
 You can subset the document-term matrix using the following way:
