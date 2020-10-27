@@ -74,9 +74,8 @@ First, I did not include covariates at all. So we are fitting a vanilla LDA mode
 ```{r}
 gadarian_3_lda <- stm(documents = out$documents,
                  vocab = out$vocab,
-
-                 K = 3, verbose = FALSE)
-summary(gadarian_3_lda)
+                 K = 3, verbose = T)
+labelTopics(gadarian_3_lda,  n = 20)
 ```
 
 plot topics
@@ -87,18 +86,25 @@ plot(gadarian_3_lda)
 
 
 ```{r}
-gadarian_3_ <- stm(documents = out$documents,
+gadarian_3 <- stm(documents = out$documents,
                  vocab = out$vocab,
                  data = out$meta,
-                 prevalence = ~ treated *pid_rep ,
+                prevalence = ~ pid_rep ,
                  K = 3, verbose = FALSE)
 plot(gadarian_3)
 
 ## explicity estimate effect of covariates on topic proportions
-prep_3 <- estimateEffect(1:3 ~ treated * pid_rep, gadarian_3,
+prep_3 <- estimateEffect(1:3 ~ pid_rep, gadarian_3,
                         meta = out$meta)
 summary(prep_3)
 ```
+
+```{r}
+labelTopics(gadarian_3, n = 10)
+```
+
+
+
 
 ```{r}
 # plot differences between treatment/control
@@ -111,7 +117,7 @@ plot(prep_3, covariate = "pid_rep" ,  model = gadarian_3, method =  "continuous"
 
 ```{r}
 ## oly 
-prep_topic1only <- estimateEffect(c(2) ~ treated * pid_rep, gadarian_3,
+prep_topic1only <- estimateEffect(c(1) ~ treated * pid_rep, gadarian_3,
                         meta = out$meta)
 summary(prep_topic1only)
 plot(prep_topic1only, covariate = "pid_rep",  model = gadarian_3, method =  "continuous", moderator = "treated", moderator.value = "treated",  linecol = "blue",printlegend = F, ylim = c(0, .5))
@@ -122,3 +128,24 @@ legend(0.9, .1, c("Treated", "Control"), lwd = 2, col = c("blue", "red"))
 ```
 
 
+## topiccal content differences
+
+Note that I am modeling content differences, not 
+```{r}
+gadarian_3 <- stm(documents = out$documents,
+                 vocab = out$vocab,
+                 data = out$meta,
+                content = ~ pid_rep ,
+                 K = 3, verbose = FALSE)
+plot(gadarian_3)
+
+## explicity estimate effect of covariates on topic proportions
+prep_3 <- estimateEffect(1:3 ~ pid_rep, gadarian_3,
+                        meta = out$meta)
+summary(prep_3)
+```
+
+Then plot topic differences, with respect to the third topic.
+```{r}
+plot(gadarian_3, type = "perspectives", topics = 3)
+```
